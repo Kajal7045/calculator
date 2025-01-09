@@ -1,0 +1,55 @@
+body{
+   background-color: #282c34;
+}
+
+.container{
+        height: 100vh;                                          
+        width: 100%;
+        background-color: #282c34;                                         
+       display: flex;
+       align-items: center;
+       justify-content: center;
+}
+.calculator{
+   background: rgb(247, 247, 247);                                               
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.calculator form input{
+     border: 0;                                             
+     outline: 0;
+     width: 60px;
+     height: 60px;
+     border-radius: 10px;
+     box-shadow:  rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+     background: transparent;
+     font-size: 20px;
+     color: rgb(4, 3, 3);
+     cursor: pointer;
+     margin: 10px;
+}
+form.display{
+   display: flex;                                               
+   justify-content: flex-end;
+   margin: 20px 0;
+}
+
+#space{
+   box-shadow: none;
+   font-size: 50px;
+   width: 300px;
+   height: 80px;
+   
+}
+#equal{
+         width: 145px;                                         
+}
+
+/* Add this CSS to your style.css file or within a <style> tag in the head of your HTML document */
+
+.operator {
+   background-color: #ff8c00;
+   transition: background-color 0.3s;
+}
